@@ -11,7 +11,15 @@ import java.util.Map;
 
 public class LINKIA_C4 {
 
-
+/*
+    
+    YA OS HE ARREGLADO EL NULL DE LA COMPANÍA, POR SI ALGUIEN QUIERE VERLO FUNCIONANDO.
+    
+    Un saludo.
+    
+    */
+    
+    
     public static void main(String[] args) {
         
         boolean truea;
