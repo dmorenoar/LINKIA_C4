@@ -153,7 +153,7 @@ public class LINKIA_C4 {
         //Devuele la lista de valores
         System.out.println("Los valores guardadas son:" + aeropuertos.values());
         
-        /*
+        
         ArrayList<Companyia> nintendo = new ArrayList<>();
         
         nintendo.add(zelda);
@@ -164,7 +164,7 @@ public class LINKIA_C4 {
         for(int i=0;i<nintendo.size();i++){
             System.out.println(nintendo.get(i));
         }
-*/
+
         
     }
     

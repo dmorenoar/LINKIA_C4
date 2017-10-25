@@ -13,7 +13,6 @@ import java.util.Objects;
  */
 public class Game extends Companyia{
     private String nombre;
-    private String companyia;
     private int anyo;
 
     public Game(String nombre, String companyia, int anyo) {
@@ -32,15 +31,7 @@ public class Game extends Companyia{
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
-    public String getCompanyia() {
-        return companyia;
-    }
-
-    public void setCompanyia(String companyia) {
-        this.companyia = companyia;
-    }
-
+    
     public int getAnyo() {
         return anyo;
     }
@@ -51,7 +42,7 @@ public class Game extends Companyia{
 
     @Override
     public String toString() {
-        return "Game{" + "nombre=" + nombre + ", companyia=" + companyia + ", anyo=" + anyo + '}';
+        return "Game{" + "Compañia= " + super.getNombre() + "," + "nombre=" + nombre + ", anyo=" + anyo + '}';
     }
 
     @Override
